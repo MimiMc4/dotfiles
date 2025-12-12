@@ -1,0 +1,26 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/alacritty-theme/themes/catppuccin_macchiato.toml"
+]
+
+[font]
+size = 11.0
+
+#[font.bold]
+#family = "Sazanami Gothic"
+#style = "Bold"
+#
+#[font.bold_italic]
+#family = "Sazanami Gothic"
+#style = "Bold Italic"
+#
+#[font.italic]
+#family = "Sazanami Gothic"
+#style = "Italic"
+#
+#[font.normal]
+#family = "Sazanami Gothic"
+#style = "Regular"
+
+[window]
+opacity = 0.9
