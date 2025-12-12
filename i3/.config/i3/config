@@ -209,8 +209,14 @@ exec --no-startup-id fcitx5
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -i /home/mimi/Pictures/i3lock_bg.png
 bindsym $mod+Ctrl+l exec i3lock --nofork -i /home/mimi/Pictures/i3lock_bg.png
 
+# Portapapeles (es el de Cinnamon)
+exec --no-startup-id /usr/lib/cinnamon-settings-daemon/csd-clipboard
+
+# Notificaciones
+exec --no-startup-id dunst
+
 #flameshot para screenshots
-exec --no-startup-id flameshot
+exec --no-startup-id flameshot daemon
 # Tomar screenshot interactivo (seleccionar área)
 bindsym Print exec flameshot gui
 
