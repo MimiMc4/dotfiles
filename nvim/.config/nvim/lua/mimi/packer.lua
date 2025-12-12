@@ -1,4 +1,3 @@
--- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
@@ -17,6 +16,7 @@ return require('packer').startup(function(use)
   use ('tpope/vim-fugitive')
   use ('ThePrimeagen/vim-be-good')
   use ('RRethy/vim-illuminate')
+  use ('lewis6991/gitsigns.nvim')
   use {
       'VonHeikemen/lsp-zero.nvim',
       branch = 'v3.x',
