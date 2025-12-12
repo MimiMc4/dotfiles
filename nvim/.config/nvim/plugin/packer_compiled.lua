@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/mimi/.cache/nvim/packer_hererocks/2.1.1764593432/share/lua/5.1/?.lua;/home/mimi/.cache/nvim/packer_hererocks/2.1.1764593432/share/lua/5.1/?/init.lua;/home/mimi/.cache/nvim/packer_hererocks/2.1.1764593432/lib/luarocks/rocks-5.1/?.lua;/home/mimi/.cache/nvim/packer_hererocks/2.1.1764593432/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/mimi/.cache/nvim/packer_hererocks/2.1.1764593432/lib/lua/5.1/?.so"
+local package_path_str = "/home/mimi/.cache/nvim/packer_hererocks/2.1.1765228720/share/lua/5.1/?.lua;/home/mimi/.cache/nvim/packer_hererocks/2.1.1765228720/share/lua/5.1/?/init.lua;/home/mimi/.cache/nvim/packer_hererocks/2.1.1765228720/lib/luarocks/rocks-5.1/?.lua;/home/mimi/.cache/nvim/packer_hererocks/2.1.1765228720/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/mimi/.cache/nvim/packer_hererocks/2.1.1765228720/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -88,6 +88,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mimi/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/mimi/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -148,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mimi/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-illuminate"] = {
+    loaded = true,
+    path = "/home/mimi/.local/share/nvim/site/pack/packer/start/vim-illuminate",
+    url = "https://github.com/RRethy/vim-illuminate"
   }
 }
 
