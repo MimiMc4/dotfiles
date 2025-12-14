@@ -12,7 +12,6 @@ return require('packer').startup(function(use)
   use { "catppuccin/nvim", as = "catppuccin" }
   use( 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate'})
   use ('mbbill/undotree')
-  --use ('tpope/vim-fugitive')
   use ('ThePrimeagen/vim-be-good')
   use ('RRethy/vim-illuminate')
   use ('lewis6991/gitsigns.nvim')
