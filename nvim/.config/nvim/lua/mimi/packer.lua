@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
   use ('RRethy/vim-illuminate')
   use ('lewis6991/gitsigns.nvim')
   use ('kdheepak/lazygit.nvim')
+  use ('brianhuster/live-preview.nvim')
   use {
       'nvim-tree/nvim-tree.lua',
       requires = {
